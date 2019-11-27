@@ -1,0 +1,11 @@
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskViewModels.deps.json
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskViewModels.dll
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskViewModels.pdb
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskDAL.dll
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskDAL.pdb
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.csprojAssemblyReference.cache
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.AssemblyInfoInputs.cache
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.AssemblyInfo.cs
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.csproj.CopyComplete
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.dll
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.pdb

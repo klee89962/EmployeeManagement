@@ -1,0 +1,10 @@
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\bin\Debug\netcoreapp2.2\HelpdeskDAL.deps.json
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\bin\Debug\netcoreapp2.2\HelpdeskDAL.runtimeconfig.json
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\bin\Debug\netcoreapp2.2\HelpdeskDAL.runtimeconfig.dev.json
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\bin\Debug\netcoreapp2.2\HelpdeskDAL.dll
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\bin\Debug\netcoreapp2.2\HelpdeskDAL.pdb
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\obj\Debug\netcoreapp2.2\HelpdeskDAL.csprojAssemblyReference.cache
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\obj\Debug\netcoreapp2.2\HelpdeskDAL.AssemblyInfoInputs.cache
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\obj\Debug\netcoreapp2.2\HelpdeskDAL.AssemblyInfo.cs
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\obj\Debug\netcoreapp2.2\HelpdeskDAL.dll
+D:\Fanshawe\INFO3070\CaseStudy\HelpdeskDAL\HelpdeskDAL\obj\Debug\netcoreapp2.2\HelpdeskDAL.pdb

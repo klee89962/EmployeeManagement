@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Case 1 - Employee</title>
+    <meta charset="utf-8" />
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="data:;base,iVBORw0KGgo=">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Case #1</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- Homepage -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/home.html">Home</a>
+                </li>
+                <!-- Employee tab which -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="/employee.html#theModal" data-toggle="modal" data-target="#theModal">Employee</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <center>
+        <!-- Site Content -->
+        <img src="img/helpdesk.png" alt="Helpdesk" />
+
+        <!-- List of Employees in database -->
+        <div class="justify-content-center align-items-center row mt-5 ml-1">
+            <div class="col-12 text-center p-3"><h2>Current Employees</h2></div>
+            <div class="list-group col-10" id="employeeList">
+                <!--Lists here-->
+            </div>
+        </div>
+        <!-- Pop up box for employee info update-->
+        <div class="modal fade text-center" data-backdrop="static" id="theModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header d-block">
+                        <!-- Close button -->
+                        <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!-- Header -->
+                        <div class="modaltitle text-center"></div>
+                    </div>
+                    <!-- Fields to fill in -->
+                    <div class="modal-body">
+                        <div class="mx-4 my-4">
+                            <div class="card">
+                                <!-- Field Header -->
+                                <div class="card-header text-center">
+                                    Employee Information
+                                </div>
+                                <div class="card-body">
+                                    <!-- Title Field -->
+                                    <div class="row">
+                                        <div class="col-4">Title:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter title" id="TextBoxTitle" class="form-control" /></div>
+                                    </div>
+                                    <!-- First Name Field -->
+                                    <div class="row">
+                                        <div class="col-4">First:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter first name" id="TextBoxFirstname" class="form-control" /></div>
+                                    </div>
+                                    <!-- Last Name Field-->
+                                    <div class="row">
+                                        <div class="col-4">Surname:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter last name" id="TextBoxLastname" class="form-control" /></div>
+                                    </div>
+                                    <!-- Phone Number Field -->
+                                    <div class="row">
+                                        <div class="col-4">Phone #: </div>
+                                        <div class="col-8"><input type="text" placeholder="enter phone #" id="TextBoxPhone" class="form-control" /></div>
+                                    </div>
+                                    <!-- Email Field -->
+                                    <div class="row">
+                                        <div class="col-4">Email:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter email address" id="TextBoxEmail" class="form-control" /></div>
+                                    </div>
+                                    <!-- Department Dropdown -->
+                                    <div class="row">
+                                        <div class="col-4">Department:</div>
+                                        <div class="col-8">
+                                            <!-- Asynchronous function gets callled to fill in the dropdown menu-->
+                                            <select id="ddlDepts" name="ddlDepts" class="form-control">
+                                                <!--Lists here-->
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Buttons with options to either add, update employees or close the tab -->
+                        <div class="card-footer text-center">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <input type="button" class="btn btn-secondary" value="Update" id="actionbutton" />
+                            <input type="button" class="btn btn-secondary" data-toggle="confirmation" id="deletebutton" data-placement="right" value="delete" />
+                            <div id="modalstatus" class="text-left mt-3 mb-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <!-- Scr-->
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-confirmation.min.js"></script>
+    <script src="js/employee.js"></script>
+</body>
+</html>
